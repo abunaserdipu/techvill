@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ResultController;
+use App\Http\Controllers\TechUserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::get('challenge-2', [ResultController::class, 'index'])->name('challenge2');
